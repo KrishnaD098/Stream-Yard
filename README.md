@@ -28,14 +28,14 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/KrishnaD098/Stream-Yard-Clone.git
 cd Stream-Yard-Clone
-
+```
 ## 2. Install Dependencies
 
 Install the necessary npm packages by running:
 
 ```bash
 npm install
-
+```
 ## 3. Configure FFmpeg Path (Windows Only)
 
 Ensure that `ffmpeg` is installed and added to your system's PATH. If you're using Windows, follow these steps:
@@ -51,14 +51,14 @@ Start the server using the following command:
 
 ```bash
 npm start
-
+```
 ## Development with Auto-Reloading
 
 For development with auto-reloading, use:
 
 ```bash
 npx nodemon index.js
-
+```
 You should see the output indicating the server is running on `PORT 3000`:
 
 HTTP server is running on PORT 3000
@@ -83,7 +83,7 @@ Socket Connected <ID>
 ```bash
 git pull origin main --rebase
 git push origin main
-
+```
 ## Code Overview
 
 - **index.js**: The main entry point for the Node.js server, handling connections and FFmpeg operations.
